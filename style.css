@@ -14,12 +14,20 @@ body {
     margin: 0 auto;
 }
 .add {
-
+    width: 28px;
+    box-sizing: border-box;
+}
+.task-edit {
+    width: 28px;
+    box-sizing: border-box;
 }
 .button {
-    width: 22px;
-    cursor: pointer;
+    
 }
+.img {
+    width: 22px;
+}
+
 .edit {
 
 }
@@ -47,7 +55,7 @@ body {
 .task {
     background-color: bisque;
     width: 300px;
-    min-height: 400px;
+    min-height: 200px;
     margin: 10px;
     padding: 15px;
     box-shadow: 2px 2px 5px 2px #cacaca;
